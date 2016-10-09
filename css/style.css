@@ -1,0 +1,203 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#navigation-container {
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.navigation-bar {	       
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: #0099cc; 	
+	text-align:right;	
+	height: 75px;
+	width: 100%;
+}
+
+.navigation-bar ul {
+	padding: 5px 5px;
+	margin: 0px;
+	margin-right: 10px;	
+	display: inline-block;
+	vertical-align: top;
+}
+
+.navigation-bar li {
+	list-style-type: none;
+	padding: 10px 10px;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline;
+}
+
+.navigation-bar li a {	
+	text-decoration: none;	
+	padding: 15px 0;	
+}
+  
+table {
+    border-collapse: collapse;	
+    width: 90%;
+    margin-left:5%; 
+    margin-right:5%;
+    cursor:default;
+}
+
+th, td { 	
+
+    text-align: center;
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: 	#ddd;
+}
+
+
+th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #0099cc;
+    color: white;
+}
+
+.butonLogout {
+	border-radius: 8px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+	padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;	
+}
+
+.butonLogout:hover {
+    background-color: #f66055;
+    color: white;
+}
+
+.butonRefresh{
+	border-radius: 8px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+	padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;	
+}
+
+.butonRefresh:hover {
+    background-color: #00cc00;
+    color: white;
+}
+
+.butonVerde {
+	border-radius: 8px;
+	background-color: #00cc00;
+    color: white; 
+    border: 2px solid #008CBA;
+	padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px;    
+}
+
+.butonEtc {
+	width: 100%;
+    background-color: #0099cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.butonRosu {
+	border-radius: 8px;
+	background-color: #f66055;
+    color: white; 
+    border: 2px solid #008CBA;
+	padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px;    
+}
+
+input[type=text], input[type=number], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {	
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.center{
+	margin-top:5em;
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+}
+
+#footer{   
+
+   position: fixed;
+   left:0px;
+   bottom:0px;  
+   text-align: center;
+   padding: 5px 0 5px 0;  
+   color: #979797;
+   width:100%;
+   opacity: 0.95; 
+   background:#262626;
+
+}
